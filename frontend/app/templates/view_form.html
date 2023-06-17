@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>View Short URL info</h1>
+  <form method="post" action="/view">
+    <label for="secret_key">Secret Key:</label>
+    <input type="text" name="secret_key" id="secret_key" required>
+    <button type="submit">View</button>
+  </form>
+{% endblock %}

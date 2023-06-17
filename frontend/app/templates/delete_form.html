@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Delete Short URL</h1>
+  <form method="post" action="/delete">
+    <label for="secret_key">Secret Key:</label>
+    <input type="text" name="secret_key" id="secret_key" required>
+    <button type="submit">Delete</button>
+  </form>
+{% endblock %}

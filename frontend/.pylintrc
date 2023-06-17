@@ -1,0 +1,8 @@
+[MESSAGES CONTROL]
+disable=
+    C0114,  # Missing module docstring
+    C0115,  # Missing class docstring
+    R0903,  # Too few public methods
+    C0116,  # Missing function or method docstring
+    C0103,  # snake_case naming style
+    E0611,  # No name in module

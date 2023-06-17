@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <p>
+    <label>Short URL: </label>
+    <a onclick="copy(this)">{{ response.short_url }}</a>
+  </p>
+  <p>
+    <label>Target URL: </label>
+    <a onclick="copy(this)">{{ response.target_url}}</a>
+  </p>
+  <p>Is active: {{ response.is_active }}</p>
+  <p>Clicks: {{ response.clicks }}</p>
+{% endblock %}
